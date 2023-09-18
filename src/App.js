@@ -14,6 +14,7 @@ import terrior from "./imgs/gins/st-george-terrior-gin.webp";
 import campari from "./imgs/amaros/campari.webp";
 import loFi from "./imgs/amaros/lo-fi-amaro.jpeg";
 import bruto from "./imgs/amaros/st-george-bruto.webp";
+import lizardTail from "./imgs/amaros/LizardTailAperitivo.webp";
 
 import instagram from "./imgs/instagram-rainbow.jpeg";
 
@@ -185,6 +186,23 @@ function App() {
                   herbs and aromatic plants, a secret recipe of natural
                   ingredients that dates back to 1860 and has become an Italian
                   tradition.
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <a
+                  href="https://lithespirits.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={lizardTail} className="image" alt="logo" />
+                </a>
+                <div className="distiller">Distiller: Lithe Spirits</div>
+                <div className="location">San Franciso, California</div>
+                <div class="description">
+                  Lizard Tail is an everyday aperitivo with a NorCal twist a
+                  balanced blend of bitter, herbal, and citrus flavors.
+                  Chamomile floralness up front leads to eucalyptus and menthol
+                  herbalness. Delicate anise spice leads to a dry finish.
                 </div>
               </div>
               <div class="swiper-slide">
