@@ -26,6 +26,10 @@
   @media (max-width: 700px);
 }
 
+.california {
+  font-weight: 300;
+}
+
 .footer {
   padding: 48px 0;
   display: flex;

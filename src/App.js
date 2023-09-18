@@ -37,7 +37,7 @@ function App() {
         <h1 class="title">Negroni Week at Last Call</h1>
         <h3>
           <div>Build Your Own Negroni (BYON)</div>
-          <div>California Edition</div>
+          <div className="california">California Edition</div>
           <div>$11 for any combo</div>
         </h3>
         <div>
