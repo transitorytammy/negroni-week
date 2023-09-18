@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  padding: 0 30%;
+  padding: 0 25%;
 
   @media (max-width: 700px) {
     padding: 0 10%;
@@ -50,5 +50,10 @@ div.section {
 }
 
 .description {
-  padding: 16px 0;
+  padding: 16px 32px;
+}
+
+.distiller {
+  font-weight: bold;
+  padding-top: 24px;
 }

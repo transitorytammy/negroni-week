@@ -40,56 +40,118 @@ function App() {
           <div>California Edition</div>
           <div>$11 for any combo</div>
         </h3>
-        <span>
-          Select your favorite California gin and amaro combination to make your
-          own special Negroni!!
-        </span>
+        <div>
+          <div>Select your favorite California gin and amaro</div>
+          <div>combination to make your own special Negroni!!</div>
+        </div>
       </header>
       <section>
         <div class="sliders">
           <div class="swiper section">
             <div class="swiper-wrapper">
               <div class="swiper-slide" data-swiper-autoplay="2000">
-                <img src={grayWhale} className="image" alt="logo" />
+                <a
+                  href="https://www.graywhalegin.com/about"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={grayWhale} className="image" alt="logo" />
+                </a>
+                <div className="distiller">
+                  Distiller: Golden State Distillery
+                </div>
                 <div class="description">
                   A refreshingly citrus palate with a smooth creamy finish that
                   includes six Californian botanicals: juniper, mint, lime, fir
-                  tree, kombu, and almonds.
+                  tree, kombu, and almonds. . The palate is slick and slightly
+                  viscous, with a lemony, faintly saline note that winds into a
+                  brisk, cooling finish that suggests an ocean breeze.
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={junipero} className="image" alt="logo" />
+                <a
+                  href="https://juniperogin.com/#about"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={junipero} className="image" alt="logo" />
+                </a>
+                <div className="distiller">
+                  Distiller: Anchor Distilling Company
+                </div>
                 <div class="description">
-                  Dry-yet-fruity full body and a warming, complex, long finish
+                  Dry-yet-fruity full body and a warming, complex, long finish.
+                  Strong juniper core. Crisp and clean with bright citrus notes
+                  and herbal complexity. Big structure with juniper at the
+                  forefront that opens up and reveals its full complexity in the
+                  ﬁnish with notes of lemon peel, cardamom and lemongrass.
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={newAmsterdam} className="image" alt="logo" />
+                <a
+                  href="https://www.newamsterdamgin.com/our-gins/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={newAmsterdam} className="image" alt="logo" />
+                </a>
+                <div className="distiller">Distiller: Modesto Distillery</div>
                 <div class="description">
                   Soft and smooth. Fruity with crisp citrus flavor and light
-                  hints of juniper.
+                  hints of juniper with a crisp, clean taste.
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={no209gin} className="image" alt="logo" />
+                <a
+                  href="https://www.distillery209.com/spirits/no-209-gin/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={no209gin} className="image" alt="logo" />
+                </a>
+                <div className="distiller">Distiller: Distillery No. 209</div>
                 <div class="description">
                   209's juniper berries are softened with orange bergamot,
-                  cardamom, lemon myrtle and cassia bark.
+                  cardamom, lemon myrtle and cassia bark. Vastly different from
+                  the juniper-heavy gins of the past, No. 209 opens with a
+                  beautifully aromatic nose of predominately citrus and floral
+                  notes with a hint of spiciness.
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={botanivore} className="image" alt="logo" />
+                <a
+                  href="https://stgeorgespirits.com/spirits/botanivore-gin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={botanivore} className="image" alt="logo" />
+                </a>
                 <div class="description">
-                  Distilled with 19 different botanicals for a gin that is
-                  beautifully balanced and vibrant.
+                  <div className="distiller">Distiller: St. George Spirits</div>
+                  <div className="description">
+                    Distilled with 19 different botanicals for a gin that is
+                    beautifully balanced and vibrant. Its “meadow in bloom”
+                    balance of tangy citrus, bright hops, fresh herbs, and
+                    exotic spices has been winning the hearts of drink lovers
+                    ever since.
+                  </div>
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={terrior} className="image" alt="logo" />
-                <div>
-                  <div>
+                <a
+                  href="https://stgeorgespirits.com/spirits/terroir-gin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={terrior} className="image" alt="logo" />
+                </a>
+                <div class="description">
+                  <div className="distiller">Distiller: St. George Spirits</div>
+                  <div className="description">
                     Intense earthy, wood, with flavors of fir trees, sage and
-                    bright citrus.
+                    bright citrus. Wildcrafted Douglas fir and locally foraged
+                    California bay laurel form its signature, while coastal sage
+                    and wok-roasted coriander connote the hillside chaparral.
                   </div>
                 </div>
               </div>
@@ -101,7 +163,13 @@ function App() {
           <div class="swiper section">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
-                <img src={campari} className="image" alt="logo" />
+                <a
+                  href="https://www.campari.com/en-us/our-products/campari/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={campari} className="image" alt="logo" />
+                </a>
                 <div class="description">
                   The shockingly red liqueur is infused with 68 different bitter
                   herbs and aromatic plants, a secret recipe of natural
@@ -110,20 +178,34 @@ function App() {
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={loFi} className="image" alt="logo" />
+                <a
+                  href="https://www.lofiaperitifs.com/000000000210012089.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={loFi} className="image" alt="logo" />
+                </a>
                 <div class="description">
-                  Starting with a California white wine base, we fortify the
-                  wine using neutral grape spirits. Then, we add grape
-                  concentrate and cane sugar for a rich mouth feel and a sweet
-                  finish.
+                  Predominant aromas of sweet citrus fruit with hints of ginger,
+                  exotic flowers and spices are supported by a framework of
+                  cinchona bark and bitter root extracts. Adds refreshing fruit
+                  flavors and crisp bitterness to a variety of cocktails.
                 </div>
               </div>
               <div class="swiper-slide">
-                <img src={bruto} className="image" alt="logo" />
+                <a
+                  href="https://stgeorgespirits.com/spirits/bruto-americano"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img src={bruto} className="image" alt="logo" />
+                </a>
                 <div class="description">
-                  Vibrant citrus with notes of cinnamon, sandalwood, and forest
-                  on the nose. Initial palate entry is bitter, followed by a
-                  woodsy mid-palate and lingering bitter/citrus finish
+                  Bruto Americano is a bold red bitter with classic roots and a
+                  counter-cultural attitude. While Bruto’s bitter gentian base
+                  makes it the perfect anchor for a Negroni, its distinct notes
+                  of balsam fir and cascara sagrada will open up your mind as
+                  well as your palate.
                 </div>
               </div>
             </div>
