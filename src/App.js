@@ -41,8 +41,10 @@ function App() {
           <div>$11 for any combo</div>
         </h3>
         <div>
-          <div>Select your favorite California gin and amaro</div>
-          <div>combination to make your own special Negroni!!</div>
+          <div>
+            Find a new favorite gin from California and try it as a classic
+            Negroni or experiment with one of our California amaros!
+          </div>
         </div>
       </header>
       <section>
