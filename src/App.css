@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.header {
+  padding: 16px 30% 0;
+  @media (max-width: 500px) {
+    padding: 16px 5%;
+  }
+}
+
+.title {
+  @media (max-width: 500px);
+}
+
+.footer {
+  padding: 48px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.sliders {
+  padding: 0 25%;
+  @media (max-width: 500px) {
+    padding: 0 10%;
+  }
+}
+
+.image {
+  height: 250px;
+  width: auto;
+
+  @media (max-width: 500px) {
+    height: 200px;
+  }
+}
+
+div.section {
+  padding: 36px 0;
+}
+
+.description {
+  padding: 16px 0;
+}
