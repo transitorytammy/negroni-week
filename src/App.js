@@ -60,6 +60,7 @@ function App() {
                 <div className="distiller">
                   Distiller: Golden State Distillery
                 </div>
+                <div className="location">Sebastopol, California</div>
                 <div class="description">
                   A refreshingly citrus palate with a smooth creamy finish that
                   includes six Californian botanicals: juniper, mint, lime, fir
@@ -79,6 +80,7 @@ function App() {
                 <div className="distiller">
                   Distiller: Anchor Distilling Company
                 </div>
+                <div className="location">San Franciso, California</div>
                 <div class="description">
                   Dry-yet-fruity full body and a warming, complex, long finish.
                   Strong juniper core. Crisp and clean with bright citrus notes
@@ -96,6 +98,7 @@ function App() {
                   <img src={newAmsterdam} className="image" alt="logo" />
                 </a>
                 <div className="distiller">Distiller: Modesto Distillery</div>
+                <div className="location">Modesto, California</div>
                 <div class="description">
                   Soft and smooth. Fruity with crisp citrus flavor and light
                   hints of juniper with a crisp, clean taste.
@@ -110,6 +113,7 @@ function App() {
                   <img src={no209gin} className="image" alt="logo" />
                 </a>
                 <div className="distiller">Distiller: Distillery No. 209</div>
+                <div className="location">San Franciso, California</div>
                 <div class="description">
                   209's juniper berries are softened with orange bergamot,
                   cardamom, lemon myrtle and cassia bark. Vastly different from
@@ -128,6 +132,7 @@ function App() {
                 </a>
                 <div class="description">
                   <div className="distiller">Distiller: St. George Spirits</div>
+                  <div className="location">Alameda, California</div>
                   <div className="description">
                     Distilled with 19 different botanicals for a gin that is
                     beautifully balanced and vibrant. Its “meadow in bloom”
@@ -147,6 +152,7 @@ function App() {
                 </a>
                 <div class="description">
                   <div className="distiller">Distiller: St. George Spirits</div>
+                  <div className="location">Alameda, California</div>
                   <div className="description">
                     Intense earthy, wood, with flavors of fir trees, sage and
                     bright citrus. Wildcrafted Douglas fir and locally foraged
@@ -170,6 +176,8 @@ function App() {
                 >
                   <img src={campari} className="image" alt="logo" />
                 </a>
+                <div className="distiller">Distiller: Campari</div>
+                <div className="location">Milan, Italy</div>
                 <div class="description">
                   The shockingly red liqueur is infused with 68 different bitter
                   herbs and aromatic plants, a secret recipe of natural
@@ -185,6 +193,8 @@ function App() {
                 >
                   <img src={loFi} className="image" alt="logo" />
                 </a>
+                <div className="distiller">Distiller: Lo-Fi Aperitifs</div>
+                <div className="location">Napa, California</div>
                 <div class="description">
                   Predominant aromas of sweet citrus fruit with hints of ginger,
                   exotic flowers and spices are supported by a framework of
@@ -200,6 +210,8 @@ function App() {
                 >
                   <img src={bruto} className="image" alt="logo" />
                 </a>
+                <div className="distiller">Distiller: St. George Spirits</div>
+                <div className="location">Alameda, California</div>
                 <div class="description">
                   Bruto Americano is a bold red bitter with classic roots and a
                   counter-cultural attitude. While Bruto’s bitter gentian base

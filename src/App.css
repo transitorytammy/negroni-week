@@ -61,3 +61,8 @@ div.section {
   font-weight: bold;
   padding-top: 24px;
 }
+
+.location {
+  font-weight: bold;
+  padding-top: 8px;
+}
