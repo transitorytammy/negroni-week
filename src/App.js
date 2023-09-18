@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 
 import "./App.css";
+import Swiper from "swiper/bundle";
+import "swiper/css/bundle";
+
 import grayWhale from "./imgs/gins/gray-whale-gin.webp";
 import junipero from "./imgs/gins/junipero-gin.webp";
 import newAmsterdam from "./imgs/gins/new-amsterdam-gin.webp";
@@ -12,13 +15,11 @@ import campari from "./imgs/amaros/campari.webp";
 import loFi from "./imgs/amaros/lo-fi-amaro.jpeg";
 import bruto from "./imgs/amaros/st-george-bruto.webp";
 
-import Swiper from "swiper/bundle";
-
-import "swiper/css/bundle";
+import instagram from "./imgs/instagram-rainbow.jpeg";
 
 function App() {
   useEffect(() => {
-    const swiper = new Swiper(".swiper", {
+    new Swiper(".swiper", {
       loop: true,
       pagination: {
         el: ".swiper-pagination",
@@ -134,20 +135,29 @@ function App() {
       </section>
 
       <footer className="footer">
-        <a
-          className="App-link"
-          href="https://www.negroniweek.com/about"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src={
-              "https://cdn.shortpixel.ai/spai/q_lossless+w_2000+to_webp+ret_img/imbibemagazine.com/wp-content/uploads/2023/08/NW-Logos-2023_no-background-or-border-red-blue-type.jpg"
-            }
-            className="App-logo"
-            alt="logo"
-          />
-        </a>
+        <div className="footerWrapper">
+          <a
+            href="https://www.instagram.com/lastcallbarsf/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={instagram} className="logo" alt="logo" />
+          </a>
+
+          <a
+            href="https://www.negroniweek.com/about"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={
+                "https://cdn.shortpixel.ai/spai/q_lossless+w_2000+to_webp+ret_img/imbibemagazine.com/wp-content/uploads/2023/08/NW-Logos-2023_no-background-or-border-red-blue-type.jpg"
+              }
+              className="logo"
+              alt="logo"
+            />
+          </a>
+        </div>
       </footer>
     </div>
   );
